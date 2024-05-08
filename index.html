@@ -1,0 +1,42 @@
+<!doctype html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      
+      <title>Pipe Archer</title>
+   
+
+      <script src="js/aalib.js"></script>
+      <script src="js/xterm.js"></script>
+      <script src="js/xterm-addon-fit.js"></script>
+      <script src="js/xterm-addon-web-links.js"></script>
+      <script src="js/terminal.js"></script>
+      <script src="js/terminal-ext.js"></script>
+      <script src="js/ascii-art.js"></script>
+      <script src="config/help.js"></script>
+      <script src="config/commands.js"></script>
+      <script src="config/fs.js"></script>
+      <link rel="stylesheet" href="css/xterm.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+      <h1 style="display: none;">Pipe Archer | Make SecOps great again</h1>
+      <h2 style="display: none;">Early Stage Cyber Security Startup</h2>
+      <img id="logo" src = "images/logo.png" alt="Root Ventures" style="display: none;"/>
+     
+      <div id="aa-all" style="display: none;""></div>
+      <div id="files-all" style="display: none;""></div>
+      <div id="terminal"></div>
+      <script>
+        var term = new Terminal({cursorBlink: true});
+        const fitAddon = new FitAddon.FitAddon();
+        const webLinksAddon = new WebLinksAddon.WebLinksAddon();
+
+        term.open(document.getElementById("terminal"));
+        term.loadAddon(fitAddon);
+        term.loadAddon(webLinksAddon);
+        extend(term);
+        runRootTerminal(term);
+      </script>
+    </body>
+  </html>
