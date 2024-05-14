@@ -1,5 +1,8 @@
 const LOGO_TYPE =
-`                  
+`       
+
+Welcome
+
 `.replaceAll("\n", "\r\n");
 
 function preloadASCIIArt() {
