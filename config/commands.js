@@ -420,9 +420,8 @@ const commands = {
   },
 
   locate: function() {
-    term.stylePrint("Root Ventures");
-    term.stylePrint("2670 Harrison St");
-    term.stylePrint("San Francisco, CA 94110");
+    term.stylePrint("40.4200° N");
+    term.stylePrint("3.6887° W");
   },
 
   history: function() {

@@ -163,7 +163,7 @@ extend = (term) => {
     term._initialized = true;
   };
 
-  term.init = (user = "guest", preserveHistory = false) => {
+  term.init = (user = "guest2", preserveHistory = false) => {
     fitAddon.fit();
     preloadASCIIArt();
     preloadFiles();
