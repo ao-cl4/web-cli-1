@@ -1,7 +1,7 @@
 const LOGO_TYPE =
 `       
-
-Welcome
+                                
+63 6c 65 76 65 72 6f 70 73 
 
 `.replaceAll("\n", "\r\n");
 
