@@ -2,8 +2,8 @@
 
 extend = (term) => {
   term.currentLine = "";
-  term.user = "guest";
-  term.host = "rootpc";
+  term.user = "anon";
+  term.host = "PipeArcher";
   term.cwd = "~";
   term.sep = ":";
   term._promptChar = "$";

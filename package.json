@@ -16,6 +16,6 @@
   },
   "scripts": {
     "build": "npm install && mkdir -p ./css && cp node_modules/xterm/css/*.css ./css && mkdir -p ./js && cp node_modules/xterm*/lib/*.js* ./js && cp node_modules/aalib.js/dist/aalib.js* ./js",
-    "start": "node server.js --host 0.0.0.0"
+    "start": "netlify dev"
   }
 }
