@@ -41,7 +41,7 @@ const commands = {
         }
       }
     } else if (!portfolio[name]) {
-      term.stylePrint(`Portfolio company ${name} not found. Should we talk to them? Email us: hello@root.vc`);
+      term.stylePrint(`Portfolio company ${name} not found. Should we talk to them? Email us: hello@cl4.ai`);
     } else {
       const company = portfolio[name];
       term.cols >= 60 ? term.printArt(name) : term.writeln("");
@@ -67,7 +67,7 @@ const commands = {
   },
 
   test: function() {
-    term.openURL("https://i.imgur.com/Q2Unw.gif");
+    term.openURL("https://i.imgur.com/0jkgyra.gif");
   },
 
   email: function() {
@@ -367,7 +367,7 @@ const commands = {
   },
 
   pine: function() {
-    term.openURL("mailto:hello@root.vc");
+    term.openURL("mailto:hello@cl4.ai");
   },
 
   curl: function(args) {
