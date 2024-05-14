@@ -119,7 +119,7 @@ extend = (term) => {
   }
 
   term.printLogoType = () => {
-    term.writeln(term.cols >= 40 ? LOGO_TYPE : "[Root Ventures]\r\n");
+    term.writeln(term.cols >= 40 ? LOGO_TYPE : "[63 6c 65 76 65 72 6f 70 73]\r\n");
   }
 
   term.openURL = (url, newWindow = true) => {
