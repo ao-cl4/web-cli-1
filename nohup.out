@@ -1,0 +1,16 @@
+
+> rootvc-cli-website@0.1.0 start
+> netlify dev --host
+
+wasm streaming compile failed: TypeError: Failed to parse URL from /home/bitnami/git_main/node_modules/netlify-cli/node_modules/netlify-redirector/lib/redirects.wasm
+falling back to ArrayBuffer instantiation
+◈ Netlify Dev ◈
+◈ Ignored general context env var: LANG (defined in process)
+◈ Ignored general context env var: LANGUAGE (defined in process)
+◈ Ignored general context env var: LC_ALL (defined in process)
+◈ No app server detected. Using simple static server
+◈ Unable to determine public folder to serve files from. Using current working directory
+◈ Setup a netlify.toml file with a [dev] section to specify your dev server settings.
+◈ See docs at: https://cli.netlify.com/netlify-dev#project-detection
+◈ Running static server from "git_main"
+◈ Could not acquire configured static server port: '80'

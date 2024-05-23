@@ -3,5 +3,5 @@
 
 sudo npm install
 sudo npm run build
-sudo npm start
-npm run start -- --host
+#sudo npm start
+#sudo npm run start& -- --host
